@@ -1,0 +1,58 @@
+.TH _PRINTF 2 "29 July 2019" "0.6" "Holberton Printf"
+.SH NAME
+_printf - Print data about the format
+.SH SYNOPSIS
+.B _printf (
+.I char *FORMAT
+,
+.I [ARGUMENT]...
+)
+.SH DESCRIPTION
+Print the FORMAT in string, after interpreting the directives with '%'
+.IReturn:
+Print the numbers of characters excluding the Null-Byte
+        Print the ARGUMENT(s) according to FORMAT:
+.PP
+.B %c
+        Print the characters calling the function and returning in character ASCII
+.PP
+.B %s
+        Print a array of characters.
+.PP
+.B %d
+        Take the argument, the convert of string to handle and print the decimal number of the character ASCII
+.PP
+.B %i
+        Take the argument, the convert of string to handle and print the integer number of the character ASCII
+.SH EXAMPLES OF USE
+.B Characters
+.PP
+_printf("Character with _print:[%c][%c][%c][%c]\n", 'H', 'o', 'l', 'b');
+.PP
+.I Output:
+Holb
+.PP
+.B Strings
+.PP
+_printf("String:[%s]\n", "Hello, Holberton!");
+.PP
+.I Output:
+Hello, Holberton
+.PP
+.B Decimal and Integers
+.PP
+_printf("Actual: %i\n", INT_MIN);
+_printf("Actual: %i\n", INT_MAX);
+.I Output:
+-2147483648
++2147483647
+.SH SEE ALSO
+.I printf(1) _printf(2) printf(3)
+.SH REPORTING BUGS
+        No known bugs.
+.PP
+        Report _printf bug to:
+946@holbertonschool.com
+965@holbertonschool.com
+.SH AUTHOR
+Written by Sebastian Galvis, Santiago Yanguas.
