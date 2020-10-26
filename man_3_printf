@@ -1,4 +1,4 @@
-.TH _PRINTF 2 "29 July 2019" "0.6" "Holberton Printf"
+.TH _PRINTF 2 "26 October 2020" "0.6" "Holberton Printf"
 .SH NAME
 _printf - Print data about the format
 .SH SYNOPSIS
@@ -17,7 +17,7 @@ Print the numbers of characters excluding the Null-Byte
         Print the characters calling the function and returning in character ASCII
 .PP
 .B %s
-        Print a array of characters.
+        Print an array of characters.
 .PP
 .B %d
         Take the argument, the convert of string to handle and print the decimal number of the character ASCII
@@ -45,14 +45,10 @@ _printf("Actual: %i\n", INT_MIN);
 _printf("Actual: %i\n", INT_MAX);
 .I Output:
 -2147483648
-+2147483647
++2147483648
 .SH SEE ALSO
 .I printf(1) _printf(2) printf(3)
 .SH REPORTING BUGS
         No known bugs.
-.PP
-        Report _printf bug to:
-946@holbertonschool.com
-965@holbertonschool.com
 .SH AUTHOR
-Written by Sebastian Galvis, Santiago Yanguas.
+Written by Kolotioloma Soro, Lhet Magnan Lhet Mombonhinhi Eny Vieyrrah.
